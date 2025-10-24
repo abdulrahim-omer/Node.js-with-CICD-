@@ -1,0 +1,10 @@
+version: "2.39.4"
+services:
+ node_app:
+  build:
+   context: .
+   target: devolpment
+  volumes:
+  - ./src:/node_app/src:ro
+  environment:
+  - NODE_ENV=devolpment

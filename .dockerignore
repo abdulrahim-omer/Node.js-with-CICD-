@@ -1,0 +1,5 @@
+/node-modules
+Dockerfile
+docker-compose*
+package-lock.json
+
